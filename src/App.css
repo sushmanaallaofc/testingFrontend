@@ -1,0 +1,52 @@
+#root {
+  background-color: white;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.welcome{
+  margin-left:auto;
+  margin-right:0.5rem;
+  color: black;
+}
+.app-navbar {
+  width: 100%;
+  background-color: #40485d;
+  color: white;
+}
+.nav-item a{
+  color: white;
+}
+.nav-item a:hover{
+  font-weight: bold;
+  color:white;
+}
+
+
+.nav-item a:active{
+  color: white;
+  font-weight: bold;
+}
+
+.nav-item button:hover{
+  font-weight: bold;
+  color: white;
+}
+.logout {
+  border:none;
+  background-color: #40485d;
+  color: white;
+}
+.app-brand {
+  font-size: 2rem;
+  color: white;
+}
+.nav-pages {
+  color: white;
+}
+

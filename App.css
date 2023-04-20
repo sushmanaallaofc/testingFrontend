@@ -1,0 +1,36 @@
+#root {
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.welcome{
+  margin-left:auto;
+  margin-right:0.5rem;
+  color: greenyellow;
+}
+.app-navbar {
+  width: 100%;
+  background-color: rgb(222, 222, 222);
+  color: #bfbfbf;
+}
+.logout {
+  border:none;
+  background-color: rgb(67, 64, 252);
+  color: white;
+}
+.app-brand {
+  font-size: 2rem;
+  color: greenyellow;
+}
+.nav-pages {
+  color: #282c34;
+}
+.nav-item button{
+  color: white;
+}
